@@ -1,5 +1,4 @@
 import {Container, Wrap} from './styles';
-import {NavBar,Header} from '@/components';
 import {Route,Switch,Redirect} from "react-router-dom";
 
 import Home from './Home';

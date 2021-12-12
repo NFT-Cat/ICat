@@ -40,7 +40,7 @@ class Ball {
             origin: { x: 0, y: 0 },
             position: {
                 x: 82,
-                y: 253
+                y: 353
             },
             anchor: {
                 x: 0,

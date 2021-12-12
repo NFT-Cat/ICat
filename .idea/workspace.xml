@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55fd1808-c2e5-48bd-b45d-7e614d0d84de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apis/assets.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apis/common.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apis/fetch.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apis/icp.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apis/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apis/liquidity.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apis/rosetta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apis/swap.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SwapCard/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SwapCard/styles.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TokenSelectModal/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TokenSelectModal/styles.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/animations3D/ball/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/animations3D/ball/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/animations3D/cat/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/animations3D/cat/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/animations3D/feeder/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/animations3D/feeder/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/animations3D/sofa/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/animations3D/sofa/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +70,17 @@
       <recent name="$PROJECT_DIR$/src/views/Login" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -66,6 +94,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -78,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639214848616</updated>
       <workItem from="1639214852420" duration="598000" />
-      <workItem from="1639227908891" duration="18616000" />
+      <workItem from="1639227908891" duration="22045000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1639228189972</created>
@@ -94,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639320149995</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="delete psychedelic">
+      <created>1639321699274</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639321699274</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,46 +139,47 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="animation" />
+    <MESSAGE value="delete psychedelic" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete psychedelic" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1639320148850">
+    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1639321697741">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.833@0.23.1440.833" timestamp="1639320148850" />
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.833@0.23.1440.833" timestamp="1639321697741" />
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.838@0.23.1440.838" timestamp="1639228188219" />
     <state x="54" y="90" key="DiffContextDialog" timestamp="1639306445225">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="54" y="90" key="DiffContextDialog/0.23.1440.833@0.23.1440.833" timestamp="1639306445225" />
-    <state width="1166" height="249" key="GridCell.Tab.0.bottom" timestamp="1639307278863">
+    <state width="1166" height="198" key="GridCell.Tab.0.bottom" timestamp="1639332970413">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state width="1166" height="249" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1639307278863" />
+    <state width="1166" height="198" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1639332970413" />
     <state width="1238" height="183" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1639231815341" />
-    <state width="1166" height="249" key="GridCell.Tab.0.center" timestamp="1639307278860">
+    <state width="1166" height="198" key="GridCell.Tab.0.center" timestamp="1639332970402">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state width="1166" height="249" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1639307278860" />
+    <state width="1166" height="198" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1639332970402" />
     <state width="1238" height="183" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1639231815339" />
-    <state width="1166" height="249" key="GridCell.Tab.0.left" timestamp="1639307278855">
+    <state width="1166" height="198" key="GridCell.Tab.0.left" timestamp="1639332970401">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state width="1166" height="249" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1639307278855" />
+    <state width="1166" height="198" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1639332970401" />
     <state width="1238" height="183" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1639231815336" />
-    <state width="1166" height="249" key="GridCell.Tab.0.right" timestamp="1639307278861">
+    <state width="1166" height="198" key="GridCell.Tab.0.right" timestamp="1639332970408">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state width="1166" height="249" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1639307278861" />
+    <state width="1166" height="198" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1639332970408" />
     <state width="1238" height="183" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1639231815340" />
     <state x="413" y="161" key="RollbackChangesDialog" timestamp="1639306472434">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="413" y="161" key="RollbackChangesDialog/0.23.1440.833@0.23.1440.833" timestamp="1639306472434" />
-    <state x="320" y="214" key="Vcs.Push.Dialog.v2" timestamp="1639320165905">
+    <state x="320" y="214" key="Vcs.Push.Dialog.v2" timestamp="1639321702291">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state x="320" y="214" key="Vcs.Push.Dialog.v2/0.23.1440.833@0.23.1440.833" timestamp="1639320165905" />
+    <state x="320" y="214" key="Vcs.Push.Dialog.v2/0.23.1440.833@0.23.1440.833" timestamp="1639321702291" />
     <state x="320" y="215" key="Vcs.Push.Dialog.v2/0.23.1440.838@0.23.1440.838" timestamp="1639228193326" />
     <state x="537" y="369" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1639320088735">
       <screen x="0" y="23" width="1440" height="833" />
