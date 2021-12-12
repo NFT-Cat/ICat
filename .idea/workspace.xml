@@ -2,50 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55fd1808-c2e5-48bd-b45d-7e614d0d84de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/public/assets/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/assets/bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/resource3d/bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/getBubbleScoreList.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Landing/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Landing/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Landing/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Landing/styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/resource3d/BG2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/animations3D/goldCoin/GoldCoin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/animations3D/goldCoin/GoldCoin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/animations3D/render.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/animations3D/render.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Activity/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Activity/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home/styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Assets/Create/NoAssetsTip/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Assets/Create/NoAssetsTip/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Assets/Create/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Assets/Create/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Assets/List/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Assets/List/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Assets/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Assets/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Liquidity/Create/NoAssetsTip/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Liquidity/Create/NoAssetsTip/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Liquidity/Create/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Liquidity/Create/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Liquidity/LiquidityList/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Liquidity/LiquidityList/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Liquidity/RemoveLiquidityModal/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Liquidity/RemoveLiquidityModal/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Liquidity/RemoveLiquidityModal/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Liquidity/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Liquidity/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Swap/NoAssetsTip/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Swap/NoAssetsTip/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Swap/TransactionDetails/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Swap/TransactionDetails/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Swap/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Swap/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639214848616</updated>
       <workItem from="1639214852420" duration="598000" />
-      <workItem from="1639227908891" duration="17860000" />
+      <workItem from="1639227908891" duration="18616000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1639228189972</created>
@@ -129,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639228189974</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="animation">
+      <created>1639320149994</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639320149995</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,12 +102,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="animation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1639228188219">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1639320148850">
+      <screen x="0" y="23" width="1440" height="833" />
     </state>
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.833@0.23.1440.833" timestamp="1639320148850" />
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.838@0.23.1440.838" timestamp="1639228188219" />
     <state x="54" y="90" key="DiffContextDialog" timestamp="1639306445225">
       <screen x="0" y="23" width="1440" height="833" />
@@ -172,9 +139,10 @@
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="413" y="161" key="RollbackChangesDialog/0.23.1440.833@0.23.1440.833" timestamp="1639306472434" />
-    <state x="320" y="215" key="Vcs.Push.Dialog.v2" timestamp="1639228193326">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state x="320" y="214" key="Vcs.Push.Dialog.v2" timestamp="1639320165905">
+      <screen x="0" y="23" width="1440" height="833" />
     </state>
+    <state x="320" y="214" key="Vcs.Push.Dialog.v2/0.23.1440.833@0.23.1440.833" timestamp="1639320165905" />
     <state x="320" y="215" key="Vcs.Push.Dialog.v2/0.23.1440.838@0.23.1440.838" timestamp="1639228193326" />
     <state x="537" y="369" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1639320088735">
       <screen x="0" y="23" width="1440" height="833" />

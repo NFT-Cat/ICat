@@ -58,7 +58,6 @@
     "@eva/plugin-transition": "^1.1.14",
     "@eva/renderer-adapter": "1.1.14",
     "@mui/material": "^5.0.6",
-    "@psychedelic/plug-connect": "^0.1.3",
     "@reduxjs/toolkit": "^1.5.1",
     "@types/lodash": "^4.14.172",
     "axios": "^0.21.1",
