@@ -113,7 +113,7 @@ function generateWebpackConfigForCanister(name, info) {
                         'less-loader'
                     ]
                 },
-                {test: /\.svg$/, loader: "file-loader"},
+                {test: /\.(svg|png|jpg)$/, use: ['file-loader']},
                 {test: /\.ttf$/, loader: "file-loader"},
             ],
         },

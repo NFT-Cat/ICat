@@ -5,6 +5,7 @@ import { Render, RenderSystem } from '@eva/plugin-renderer-render';
 
 let INSTANCE = null;
 let liuHuiScreen = window.screen.height >= 812;
+let sceneHeight = window.screen.height*(2/3)
 // 资源
 export const Source = [{
     name: 'BG',
@@ -16,6 +17,7 @@ export const Source = [{
         }
     }
 }];
+
 class RenderAni {
     game=null;
     resumeTime = 0;
@@ -37,7 +39,7 @@ class RenderAni {
                 new RendererSystem({
                     canvas: document.querySelector('#canvas'),
                     width: 375,
-                    height: 358,
+                    height: sceneHeight,
                     resolution: window.devicePixelRatio, // Optional, if it is 2 times the image design, it can be divided by 2
                     enableScroll: true, // Enable page scrolling
                     renderType: 0, // 0: automatic judgment, 1: WebGL, 2: Canvas, it is recommended to use Canvas below android6.1 ios9, business judgment is required.
@@ -53,7 +55,7 @@ class RenderAni {
             src: {
                 image: {
                     type: 'png',
-                    url: '././public/resource3d/BG_Large.png'
+                    url: '././public/resource3d/bg2.png'
                 }
             },
             preload: true
@@ -71,7 +73,7 @@ class RenderAni {
         }]);
 
         this.container = new GameObject('container', {
-            size: { width: 375, height: 350 },
+            size: { width: 375, height: sceneHeight },
             origin: { x: 0, y: 0 },
             position: {
                 x: 0,
@@ -87,9 +89,8 @@ class RenderAni {
                 sortableChildren: true,
             }),
         );
-
         this.BG = new GameObject('BG', {
-            size: { width: 375, height: 368 },
+            size: { width: 375, height: sceneHeight },
             origin: { x: 0, y: 0 },
             position: {
                 x: 0,

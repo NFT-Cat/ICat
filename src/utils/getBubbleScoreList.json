@@ -1,0 +1,68 @@
+{
+  "CodeMsg": null,
+  "Content": {
+    "bubbleScoreList": [
+      {
+        "afterRewardScore": 20,
+        "bubbleIcon": null,
+        "bubbleType": 0,
+        "buttonText": null,
+        "countDown":null,
+        "desc": "营销气泡营销气",
+        "exposureDaysTillToday": 1,
+        "exposureDaysTillYesterday": null,
+        "id": 53,
+        "redirectUrl": null,
+        "score": 9,
+        "taskHandler": null,
+        "taskId": 501,
+        "title": "手机充值手机借款机充值"
+      },
+      {
+        "afterRewardScore": 20,
+        "bubbleIcon": null,
+        "bubbleType": 0,
+        "buttonText": null,
+        "countDown":null,
+        "desc": "营销气泡营销气",
+        "exposureDaysTillToday": 1,
+        "exposureDaysTillYesterday": null,
+        "id": 53,
+        "redirectUrl": null,
+        "score": 9,
+        "taskHandler": null,
+        "taskId": 501,
+        "title": "手机充值手机借款机充值"
+      },
+      {
+        "afterRewardScore": 20,
+        "bubbleIcon": null,
+        "bubbleType": 0,
+        "buttonText": null,
+        "countDown":null,
+        "desc": "营销气泡营销气",
+        "exposureDaysTillToday": 1,
+        "exposureDaysTillYesterday": null,
+        "id": 53,
+        "redirectUrl": null,
+        "score": 9,
+        "taskHandler": null,
+        "taskId": 501,
+        "title": "手机充值手机借款机充值"
+      }
+      ],
+    "marketingBubbleNode": 0,
+    "scoreExpireTips": {
+      "expiringScore": 20
+    },
+    "scoreInfo": {
+      "allScore": 200,
+      "differenceOfNextLockScore": 100,
+      "totalScore": 12,
+      "upgradeProgress": 0
+    },
+    "timestamp": 1606299091000
+  },
+  "Result": 200,
+  "ResultMessage": null
+}

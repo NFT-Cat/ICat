@@ -966,10 +966,10 @@ export default class GoldCoin {
         const position = this.goldCoin.transform.position;
         //当接口又返回的时候再播放
         this.receiveApiStatus = false;
-        const res = await InteractiveController.coinFallOve(position, this.coinIndex);
-        if (!res) {
-            return;
-        }
+        // const res = await InteractiveController.coinFallOve(position, this.coinIndex);
+        // if (!res) {
+        //     return;
+        // }
         //点击完后
         //修改层级
         this.goldCoinIndex.zIndex = 59;

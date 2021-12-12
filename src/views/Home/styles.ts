@@ -1,17 +1,10 @@
 import styled from "styled-components";
 
-export const Header = styled.div`
-         width: 100%;
-         padding: 24px 0;
-         border-bottom: 1px solid #373737;
-         font-family: Nunito Sans;
-         font-style: normal;
-         font-weight: bold;
-         font-size: 18px;
-         line-height: 25px;
-         color: #F6FCFD;
-`;
-export const AEmpty= styled.div`
+export const Wrap = styled('div')`
+      height: 100vh;
+      width: 100vw;
+`
+export const AEmpty = styled.div`
         font-family: Nunito Sans;
         font-style: normal;
         font-weight: 600;
@@ -22,14 +15,14 @@ export const AEmpty= styled.div`
         color: #888E8F;
         margin-top: 35px;
 `;
-export const List =styled.div`
+export const List = styled.div`
        width: 100%;
        display: flex;
        flex-direction: column;
        margin-top: 20px;
 
 `;
-export const Date =styled.div`
+export const Date = styled.div`
         font-family: Nunito Sans;
         font-style: normal;
         font-weight: 600;
@@ -88,7 +81,7 @@ export const Row = styled.div`
       display: flex;
 `
 
-export const Container =styled.canvas`
+export const Container = styled.canvas`
      width: 100%;
-     height: 400px;
+     height: auto;
 `
