@@ -92,7 +92,7 @@ class FeederInstance {
             origin: { x: 0, y: 0 },
             position: {
                 x: 235,
-                y: 220
+                y: 320
             },
             anchor: {
                 x: 0,
@@ -162,12 +162,12 @@ class FeederInstance {
         // 活力值
         this.title = new GameObject('title', {
             size: { width: 60, height: 50 },
-            position: { x: 72, y: 35}
+            position: { x: 78, y: 35}
         });
         this.title.addComponent(new Text({
-            text: '活力值',
+            text: 'ICP',
             style: {
-                fontSize: '12px',
+                fontSize: '15px',
                 fill: ['#fff'], // gradient
                 leading: 5,
                 wordWrap: true,

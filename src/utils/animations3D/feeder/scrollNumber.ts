@@ -20,7 +20,7 @@ export default class ScrollNumber {
         // 创建外部遮罩
         this.mask = new GameObject('box', {
             size: { width: 200, height: 50 },
-            position: { x: 298, y: 226 },
+            position: { x: 298, y: 376 },
             anchor: { x: 0, y: 0 }, // 锚点，相对于父级的宽高的比率的一个点，物体的原点会相对于这个点进行位移
         });
         this.mask.addComponent(new Mask({

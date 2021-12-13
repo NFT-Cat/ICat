@@ -265,7 +265,7 @@ class CatInstance {
             origin: { x: 0, y: 0 },
             position: {
                 x: 110,
-                y: 155
+                y: 235
             },
             anchor: {
                 x: 0,
@@ -368,7 +368,7 @@ class CatInstance {
     }
 
     private load(name: string, callBack?: Function, speed?: number) {
-        this.addChild(DialogBox.load())
+        // this.addChild(DialogBox.load())
         this.switchGame(name, speed);
         this.callBackEndAnimation = callBack;
         RenderAni.renderGame(this.cat, 15);

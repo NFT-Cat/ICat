@@ -8,8 +8,8 @@ export default () => {
         <Wrap>
             <Container className="container">
                 <Switch>
-                    <Route exact path="/"  render={()=> <Home />}/>
-                    <Route exact path="/landing"  render={()=> <Landing />}/>
+                    <Route exact path="/cat"  render={()=> <Home />}/>
+                    <Route exact path="/"  render={()=> <Landing />}/>
                 </Switch>
                 {/*<Route path="/swap/exchange" render={() => <SwapExchangeWrap />} />*/}
             </Container>
