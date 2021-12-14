@@ -9,8 +9,8 @@ export default () => {
     const history = useHistory();
     const {principal,logOut,logIn}: {  principal: Principal,logOut:Function,logIn:Function} = useAuth();
     const Login = async ()=>{
-        await logIn()
-        // history.push('/cat')
+        // await logIn()
+        history.push('/cat')
     }
     useEffect(()=>{
 
