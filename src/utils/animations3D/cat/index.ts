@@ -264,16 +264,16 @@ class CatInstance {
             size: { width: this.width, height: this.height },
             origin: { x: 0, y: 0 },
             position: {
-                x: 110,
-                y: 235
+                x: 60,
+                y: 355
             },
             anchor: {
                 x: 0,
                 y: 0
             },
             scale: {
-                x: 0.8,
-                y: 0.8
+                x: 1.2,
+                y: 1.2
             }
         });
     }

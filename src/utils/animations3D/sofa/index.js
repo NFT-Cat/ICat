@@ -38,7 +38,7 @@ class Sofa {
             origin: { x: 0, y: 0 },
             position: {
                 x: 14,
-                y: 398
+                y: 698
             },
             anchor: {
                 x: 0,

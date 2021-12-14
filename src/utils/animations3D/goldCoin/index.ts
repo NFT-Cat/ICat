@@ -1,32 +1,32 @@
 import GoldCoin from './GoldCoin';
-const endy= 200
+const endy= 400
 const coin_position = {
     'key4': {
-        startY: 125,
+        startY: 225,
         startX: 304,
         endY: endy,
         endX: 303.5     // 4
     },
     'key5': {
-        startY: 106,
+        startY: 206,
         startX: 135,
         endY: endy,     // 1
         endX: 303.5
     },
     'key2': {
-        startY: 125,
+        startY: 225,
         startX: 196,
         endY: endy,      // 2
         endX: 303.5
     },
     'key3': {
-        startY: 106,
+        startY: 206,
         startX: 253,           // 3
         endY: endy,
         endX: 303.5
     },
     'key1': {
-        startY: 194,
+        startY: 294,
         startX: 213,        // 5
         endY: endy,
         endX: 303.5

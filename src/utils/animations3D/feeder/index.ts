@@ -91,12 +91,16 @@ class FeederInstance {
             size: { width: this.width, height: this.height },
             origin: { x: 0, y: 0 },
             position: {
-                x: 235,
-                y: 320
+                x: 205,
+                y: 500
             },
             anchor: {
                 x: 0,
                 y: 0
+            },
+            scale:{
+                x:1.2,
+                y:1.2
             }
         });
         // this.container.addComponent(new Render({

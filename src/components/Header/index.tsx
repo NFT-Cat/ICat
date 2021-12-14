@@ -12,7 +12,7 @@ interface Props {
      Id:string
 };
 const Menus = ({Id}:Props) => {
-        const {principal,logOut}: {  principal: Principal,logOut:Function} = useAuth();
+    const {principal,logOut}: {  principal: Principal,logOut:Function} = useAuth();
     const handleLayOut = useCallback(() => {
         logOut && logOut()
     }, [])

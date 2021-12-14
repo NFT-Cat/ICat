@@ -5,7 +5,7 @@ import { Render, RenderSystem } from '@eva/plugin-renderer-render';
 
 let INSTANCE = null;
 let liuHuiScreen = window.screen.height >= 812;
-let sceneHeight = window.screen.height*(2/3)
+let sceneHeight = window.screen.height;
 // 资源
 export const Source = [{
     name: 'BG',

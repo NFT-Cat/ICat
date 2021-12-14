@@ -41,7 +41,21 @@ export const useProvideAuth =(authClient):Props=>{
         const type = Storage.getWalletTypeStorage()
         //set wallet type
         if (type===II){
-
+            Promise.all([authClient.getIdentity(), authClient.isAuthenticated()]).then(
+                ([identity, isAuthenticated]) => {
+                    // setIsAuthenticatedLocal(isAuthenticated || false);
+                    const t = identity.getPrincipal();
+                    setPrincipal(t);
+                    const subAccountId = principalToAccountIdentifier(t,0);
+                    setSubAccountId(subAccountId);
+                    _setIdentity(identity);
+                    if (isAuthenticated) {
+                        setAuthenticated(true);
+                        // setUserFromLocalStorage();
+                    }
+                    setAuthClientReady(true);
+                }
+            );
         }else if (type===plug){
             checkPlug()
         }
@@ -87,6 +101,22 @@ export const useProvideAuth =(authClient):Props=>{
 
 
     }
+    const logIn = async  (): Promise<void>=> {
+        if (!authClient) return;
+        const identity =  await authClient.login();
+        const t= identity.getPrincipal();
+        const subAccountId = principalToAccountIdentifier(t,0);
+        setPrincipal(t);
+        setSubAccountId(subAccountId);
+        if (identity) {
+            _setIdentity(_identity);
+            setAuthenticated(true);
+            setWalletType('II');
+            Storage.setWalletTypeStorage('II');
+        } else {
+            console.error("Could not get identity from internet identity");
+        }
+    };
     const logOut=async ():Promise<void>=> {
         // if (!authClient.ready) return;
         await authClient.logout();
@@ -99,6 +129,7 @@ export const useProvideAuth =(authClient):Props=>{
        principal,
        logOut,
         isAuth: authenticated,
+        logIn,
        plugLogIn,
        subAccountId,
        walletType,

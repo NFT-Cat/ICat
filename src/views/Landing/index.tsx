@@ -3,10 +3,14 @@ import React, {useEffect} from "react";
 import {useHistory} from 'react-router'
 import './index.css';
 import './main.css';
+import {Principal} from "@dfinity/agent";
+import {useAuth} from "@/usehooks/useAuth";
 export default () => {
     const history = useHistory();
-    const Login = ()=>{
-        history.push('/cat')
+    const {principal,logOut,logIn}: {  principal: Principal,logOut:Function,logIn:Function} = useAuth();
+    const Login = async ()=>{
+        await logIn()
+        // history.push('/cat')
     }
     useEffect(()=>{
 
