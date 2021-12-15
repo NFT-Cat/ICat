@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55fd1808-c2e5-48bd-b45d-7e614d0d84de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/public/assets/mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Mobile/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Mobile/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/swap/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/swap/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Landing/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Landing/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -32,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/utils/animations3D" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/public/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -44,15 +51,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/public/resource3d" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/public/assets" />
+      <recent name="$PROJECT_DIR$/src/views" />
       <recent name="$PROJECT_DIR$/src/utils/animations3D" />
       <recent name="$PROJECT_DIR$/src/public/resource3d" />
       <recent name="$PROJECT_DIR$/src/utils" />
-      <recent name="$PROJECT_DIR$/src/public/assets" />
-      <recent name="$PROJECT_DIR$/src/views/Landing" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/public/resource3d" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -93,7 +100,7 @@
       <updated>1639214848616</updated>
       <workItem from="1639214852420" duration="598000" />
       <workItem from="1639227908891" duration="33329000" />
-      <workItem from="1639460967001" duration="6845000" />
+      <workItem from="1639460967001" duration="11085000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1639228189972</created>
@@ -144,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639502912617</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update cat">
+      <created>1639503738199</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639503738199</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,10 +174,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="update cat" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1639502912034">
+    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1639503737922">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.833@0.23.1440.833" timestamp="1639502912034" />
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.833@0.23.1440.833" timestamp="1639503737922" />
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.836@0.23.1440.836" timestamp="1639404449067" />
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.838@0.23.1440.838" timestamp="1639228188219" />
     <state x="54" y="90" width="1152" height="667" key="DiffContextDialog" timestamp="1639379095692">
@@ -199,10 +213,10 @@
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="413" y="161" key="RollbackChangesDialog/0.23.1440.833@0.23.1440.833" timestamp="1639306472434" />
-    <state x="320" y="214" key="Vcs.Push.Dialog.v2" timestamp="1639503278811">
+    <state x="320" y="214" key="Vcs.Push.Dialog.v2" timestamp="1639503740159">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state x="320" y="214" key="Vcs.Push.Dialog.v2/0.23.1440.833@0.23.1440.833" timestamp="1639503278811" />
+    <state x="320" y="214" key="Vcs.Push.Dialog.v2/0.23.1440.833@0.23.1440.833" timestamp="1639503740159" />
     <state x="320" y="215" key="Vcs.Push.Dialog.v2/0.23.1440.836@0.23.1440.836" timestamp="1639404461355" />
     <state x="320" y="215" key="Vcs.Push.Dialog.v2/0.23.1440.838@0.23.1440.838" timestamp="1639228193326" />
     <state x="219" y="138" width="1008" height="490" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1639498988654">

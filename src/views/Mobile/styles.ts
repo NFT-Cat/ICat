@@ -1,20 +1,22 @@
 import styled from "styled-components";
 
 export const Wrap = styled('div')`
-      height: 100vh;
+      min-height: 100vh;
       width: 100vw;
-      background: url("../../public/resource3d/bg2.png");
 `
-export const AEmpty = styled.div`
-        font-family: Nunito Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 22px;
-        /* identical to box height */
-        text-align: center;
-        color: #888E8F;
-        margin-top: 35px;
+export const Container = styled.div`
+       height: 735px!important;
+    margin: 0 auto;
+    padding: 102px 25px 159px 23px;
+    width: 414px;
+    margin-top: 40px;
+    background: url('../../public/assets/mobile.png') no-repeat;
+    background-size: contain;
+    transition: all 0.5s ease 0s;
+    overflow: visible;
+    position: relative;
+    top: 54px;
+    z-index: 50;
 `;
 export const List = styled.div`
        width: 100%;
@@ -82,7 +84,3 @@ export const Row = styled.div`
       display: flex;
 `
 
-export const Container = styled.canvas`
-     width: 100%;
-     height: auto;
-`
