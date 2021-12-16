@@ -9,6 +9,8 @@ import InteractiveController from '../controller';
 import { POINT } from '../trackerPoint';
 import { Fish } from '../feeder/fish';
 import DialogBox from '../dialogBox';
+import { Sound, SoundSystem } from '@eva/plugin-sound';
+
 // 资源
 export const Source = [{
     name: 'cat',
@@ -221,7 +223,17 @@ export const Source = [{
             }
         },
         preload: true
-    }];
+    },{
+        name: 'bgSound',
+        type: RESOURCE_TYPE.AUDIO,
+        src: {
+            audio: {
+                type: 'audio',
+                url: '../../public/resource3d/4293.wav',
+            },
+        },
+        preload: true,
+    },];
 // width =474;
 // height = 298;
 // x: -28,
@@ -250,13 +262,15 @@ class CatInstance {
     private firstSwitch: boolean = false;
     private catEatCallBack: Function | any;
     private signPlayHello:boolean = false;
+    private bgSoundObj: GameObject|any=null;
+    private bgSound:GameObject|any = null;
     constructor() {
         this.initResource();
         this.initGame();
     }
 
     initResource() {
-        RenderAni.addResource(Source).addSystem([new TextSystem(), new TransitionSystem(), new SpriteAnimationSystem(), new ImgSystem(), new EventSystem()]);
+        RenderAni.addResource(Source).addSystem([new SoundSystem(),new TextSystem(), new TransitionSystem(), new SpriteAnimationSystem(), new ImgSystem(), new EventSystem()]);
     }
 
     initGame() {
@@ -276,6 +290,10 @@ class CatInstance {
                 y: 1.2
             }
         });
+         this.bgSoundObj = new GameObject('sound');
+         this.bgSound = this.bgSoundObj.addComponent(
+            new Sound({ resource: 'bgSound', loop: false, autoplay: false, volume: 0.5 })
+        );
     }
 
     setAnimationDuration() {
@@ -340,7 +358,7 @@ class CatInstance {
                     tgt_name: 'h5-ACT-成长权益-权益猫动画',
                     param2: this.catSpriteAnimation.resource
                 });
-
+                this.bgSound.play();
             });
         } else {
             this.switchSpeed(name);

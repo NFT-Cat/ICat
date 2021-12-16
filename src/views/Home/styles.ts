@@ -3,26 +3,11 @@ import styled from "styled-components";
 export const Wrap = styled('div')`
       height: 100vh;
       width: 100vw;
-      background: url("../../public/resource3d/bg2.png");
+      background: url("../../public/resource3d/bg2.png") center center no-repeat;
+      background-size: contain;
+      position: relative;
 `
-export const AEmpty = styled.div`
-        font-family: Nunito Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 22px;
-        /* identical to box height */
-        text-align: center;
-        color: #888E8F;
-        margin-top: 35px;
-`;
-export const List = styled.div`
-       width: 100%;
-       display: flex;
-       flex-direction: column;
-       margin-top: 20px;
 
-`;
 export const Date = styled.div`
         font-family: Nunito Sans;
         font-style: normal;
@@ -78,11 +63,14 @@ export const ListItem = styled.div`
        }
       
 `;
-export const Row = styled.div`
-      display: flex;
-`
+
 
 export const Container = styled.canvas`
      width: 100%;
      height: auto;
+`
+export const MenusPosition=styled('div')`
+     position: absolute;
+     right: 20px;
+     top: 100px;
 `

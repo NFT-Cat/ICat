@@ -6,7 +6,7 @@ export default () => {
         <Wrap >
             <Container>
                 <iframe id="iframe" src="https://i-cat-one.vercel.app/cat" frameBorder="0" width="100%"
-                        height="735" />
+                        height="577" />
             </Container>
         </Wrap>
     )

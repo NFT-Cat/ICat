@@ -1,30 +1,14 @@
 import styled from "styled-components";
 
 export const Wrap = styled('div')`
-      min-height: 100vh;
+      height: 100vh;
       width: 100vw;
+      background: url("../../public/resource3d/bg2.png") center center no-repeat;
+      background-size: cover;
+      overflow: hidden;
+      position: relative;
 `
-export const Container = styled.div`
-       height: 735px!important;
-    margin: 0 auto;
-    padding: 82px 25px 159px 20px;
-    width: 414px;
-    margin-top: 40px;
-    background: url('../../public/assets/mobile.png') no-repeat;
-    background-size: contain;
-    transition: all 0.5s ease 0s;
-    overflow: visible;
-    position: relative;
-    top: 54px;
-    z-index: 50;
-`;
-export const List = styled.div`
-       width: 100%;
-       display: flex;
-       flex-direction: column;
-       margin-top: 20px;
 
-`;
 export const Date = styled.div`
         font-family: Nunito Sans;
         font-style: normal;
@@ -80,7 +64,14 @@ export const ListItem = styled.div`
        }
       
 `;
-export const Row = styled.div`
-      display: flex;
-`
 
+
+export const Container = styled.canvas`
+     width: 100%;
+     height: auto;
+`
+export const MenusPosition=styled('div')`
+     position: absolute;
+     right: 20px;
+     top: 100px;
+`
